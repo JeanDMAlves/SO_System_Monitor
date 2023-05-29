@@ -3,6 +3,9 @@ import platform
 
 class GeneralInformation:
     def bytes_to_gigas(self, value):
+        """
+            Converte de bytes para gigabytes
+        """
         return value / (1024**3)
     
     def print_virtual_memory(self):
